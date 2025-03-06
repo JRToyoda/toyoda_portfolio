@@ -10,5 +10,8 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+
+  site: 'https://JRToyoda.github.io',
+  base: 'toyoda_portfolio',
 });
